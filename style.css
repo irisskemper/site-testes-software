@@ -29,6 +29,12 @@ main {
   box-shadow: 0 2px 8px #0001;
 }
 
+#titulo-principal {
+  margin: 0;
+  font-size: 32px;
+  color: #ca0c7b;
+}
+
 h2 {
   color: #c00290;
 }
