@@ -1,0 +1,154 @@
+/* Base */
+body {
+  margin: 0;
+  padding: 20px;
+  background: #f7cde5;
+  color: #ca0c7b;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 16px;
+}
+
+/* Layout */
+header {
+  margin-bottom: 18px;
+  padding: 20px;
+  background: #fff;
+  text-align: center;
+}
+
+main {
+  max-width: 1000px;
+  margin: auto;
+}
+
+.card {
+  margin-bottom: 20px;
+  padding: 20px;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px #0001;
+}
+
+h2 {
+  color: #c00290;
+}
+
+/* Menu */
+.menu {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.item-menu {
+  padding: 10px 16px;
+  background: #fff;
+  border-radius: 8px;
+}
+
+.item-menu.ativo {
+  background: #ca0c7b;
+  color: #fff;
+}
+
+/* Formulários */
+.campo {
+  display: block;
+  width: 100%;
+  box-sizing: border-box;
+  margin: 7px 0 14px;
+  padding: 10px;
+  border: 1px solid #bbb;
+  border-radius: 6px;
+}
+
+.linha {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.linha .campo {
+  margin: 0;
+}
+
+.grupo-opcoes {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  margin: 10px 0;
+}
+
+.check {
+  display: block;
+  margin: 10px 0;
+}
+
+/* Botões */
+.botao {
+  margin: 4px;
+  padding: 10px 16px;
+  border: 0;
+  border-radius: 7px;
+  background: #ca0c7b;
+  color: #fff;
+  cursor: pointer;
+}
+
+.botao.secundario {
+  background: #777;
+}
+
+.botao:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.mensagem {
+  min-height: 20px;
+  font-weight: bold;
+}
+
+/* Tabela */
+table {
+  width: 100%;
+  margin-top: 10px;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  padding: 10px;
+  border: 1px solid #aaa;
+  text-align: left;
+}
+
+th {
+  background: #f3b6d5;
+}
+
+tr:hover {
+  background: #f0d4e3;
+}
+
+/* Links */
+a {
+  color: #ca0c7b;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/* Utilitários */
+.oculto {
+  display: none;
+}
+
+/* Responsividade */
+@media (max-width: 600px) {
+  .linha {
+    flex-direction: column;
+    align-items: stretch;
+  }
+}
